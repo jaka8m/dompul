@@ -8,7 +8,15 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/cek_kuota",       // Menangkap request ke /cek_kuota
+      "dest": "app.py"
+    },
+    {
+      "src": "/cek_kuota(.*)",  // Menangkap request ke /cek_kuota diikuti apapun (termasuk query params)
+      "dest": "app.py"
+    },
+    {
+      "src": "/(.*)",            // Route fallback: Menangkap semua request lainnya
       "dest": "app.py"
     }
   ]
