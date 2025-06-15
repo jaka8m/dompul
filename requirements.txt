@@ -1,4 +1,2 @@
-# Lokasi: dompul/requirements.txt
-
-Flask==2.3.2
-requests==2.31.0
+Flask
+requests
