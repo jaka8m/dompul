@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 import requests
-import os
 
 app = Flask(__name__)
 
@@ -48,3 +47,5 @@ def cek_kuota():
             'message': 'Internal server error while checking XL package.',
             'details': str(e)
         }), 500
+
+app = app
