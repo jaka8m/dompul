@@ -1,0 +1,23 @@
+{
+  "name": "api-cek-kuota-xl",
+  "version": "1.0.0",
+  "description": "API untuk cek kuota XL melalui Vercel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0" 
+  },
+  "keywords": [
+    "api",
+    "express",
+    "vercel",
+    "node.js",
+    "xl",
+    "kuota"
+  ],
+  "author": "Nama Anda",
+  "license": "ISC"
+}
