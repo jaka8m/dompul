@@ -12,6 +12,7 @@ PORT = int(os.environ.get('PORT', 3000))
 def cek_kuota():
     """
     Endpoint untuk memeriksa kuota menggunakan MSISDN yang disediakan.
+    Akses: GET /cek_kuota?msisdn=NOMOR_HP
     """
     msisdn = request.args.get('msisdn')
 
